@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" class="stylesheet">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="bio"><img class="profile-img" src="./Images/1.png"/>
+          <h3 class="header">Khaitan Legal Services</h3>
+          <p class="desc"> K&K has a pan-India presence through a network of associated law offices in India. Additionally K&K also has international association in over 50 countries.</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.7130250835035!2d77.07951081488994!3d28.488187882475053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d193dcb501477%3A0x59f7fc3e224bb905!2sM-1%2C%20Mushedpur%2C%20DLF%20Phase%202%2C%20Sector%2025%2C%20Gurugram%2C%20Haryana%20122022!5e0!3m2!1sen!2sin!4v1659681596792!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+          <p class="address"> Head Office: M 1 Dlf City Gurgaon Gurgaon, Delhi,Delhi,122001,India</p>
+          <a class="bio-link" href="https://www.linkedin.com/company/khaitan-&-co-/">Linkedin<i class="fa fa-linkedin"></i></a>
+            <a class="bio-link" href="https://www.facebook.com/khaitanandkhaitan">Facebook<i class="fa fa-facebook"></i></a>
+            <a class="bio-link" href="khaitan-customerservices@gmail.com">Gmail<i class="fa fa-gmail"></i></a>
+        </div>
+        <div class="contact">
+          <form id="form">
+            <legend class="header">Get In Touch</legend>
+            <fieldset>
+              <label class="fa fa-user" for="name-input" aria-hidden="true"></label>
+              <input type="text" placeholder="Your name..." id="name-input"/>
+            </fieldset>
+            <fieldset>
+              <label class="fa fa-envelope" for="email-input" aria-hidden="true"></label>
+              <input type="email" placeholder="Your email..." id="email-input"/>
+            </fieldset>
+            <fieldset>
+                <label class="fa fa-envelope" for="tel" aria-hidden="true"></label>
+                <input type="tel" placeholder="Your Contact No..." id="tel-input"/>
+              </fieldset>
+            <fieldset>
+              <label class="fa fa-comment" for="message-input" aria-hidden="true"></label>
+              <textarea placeholder="Your Query..." id="message-input"></textarea>
+            </fieldset>
+            <fieldset>
+              <button type="submit" id="btn-submit">Send</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+               <!-- Side nav -->
+               <div id="main">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <b>Menu</b> </span>
+              
+            </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../index.html">Home</a>
+        <a href="../Cardpage/index.html">Our Services</a>
+        <a href="../Meet The Team/index.html">Meet Your Lawyers</a>
+        <a href="./index.html">Contact us</a>
+       
+        <a href="../News and events/index.html">News and Events</a>
+      </div>
+    
+      <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "500px";
+        document.getElementById("main").style.marginLeft = "500px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+      }
+      </script>
+</body>
+</html>
