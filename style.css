@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
 body,
 html {
     height: 100%;
@@ -20,15 +22,17 @@ section {
     scroll-behavior: smooth;
     margin: 0%;
     
+    
 }
 
 * {
     box-sizing: border-box;
+
 }
 
 .bg-image {
     /* Full height */
-    height: 100%;
+    height: 120%;
     scroll-snap-points-y: repeat(300px);
     background-position: center;
     background-repeat: no-repeat;
@@ -102,8 +106,8 @@ section {
      left:50%;
 }
 .Topic{
-    font-size: 60px;
-    font-family: 'Catamaran', sans-serif;
+    font-size: 80px;
+    font-family: 'Ubuntu', sans-serif;
     font-style: 'Regular 400';
     text-align: center;
     margin-top: 50px;
@@ -112,7 +116,7 @@ section {
 
 .Title{
     font-size: 80px;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Merriweather', serif;
     font-style: 'Bold 700';
     text-align: center;
     margin-top: 0px;
@@ -231,7 +235,7 @@ body {
     .sidenav a {font-size: 18px;}
   }
 
-  /* Search Bar */
+  /* Search Bar
   .search-box {
     display: flex;
     justify-content:left;
@@ -244,7 +248,7 @@ body {
     border: 0;
     box-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke;
     /* left:0%; */
-    padding: 0;
+    /* padding: 0;
     width: 0;
     height: 30px;
     transition: padding 0.6s ease-in-out,
@@ -259,4 +263,4 @@ body {
     color: black;
     padding: 8px;
     border: 1px solid whitesmoke;
-  }
+  } */ 
