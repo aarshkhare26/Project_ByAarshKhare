@@ -9,3 +9,5 @@ function openNav() {
     document.getElementById("main").style.marginLeft= "0";
     document.body.style.backgroundColor = "white";
   }
+
+  document.body.style.zoom = "80%";
